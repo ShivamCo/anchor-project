@@ -109,7 +109,7 @@ const InputUrl = () => {
                 <form onSubmit={handleSubmit} >
 
 
-                    <input onChange={handleInput} className=" w-96 text-white border px-4 py-2 p-1 border-slate-600 rounded-full bg-transparent" placeholder="enter youtube video link" >
+                    <input onChange={handleInput} className=" w-96 text-white border px-4 py-2 p-1 border-slate-600 rounded-full bg-transparent" placeholder=":yt: enter youtube video link" >
 
                     </input>
                     <button className=" bg-red-600 text-white font-semibold mx-4 rounded-full p-1 py-2 px-4 " >

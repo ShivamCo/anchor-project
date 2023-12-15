@@ -50,14 +50,14 @@ const ResultPage = () => {
 
 
     return (
-        <div className=' flex  flex-col  bg-slate-950 h-full justify-center items-center ' >
+        <div className=' flex  flex-col bg-mainBlack h-full justify-center items-center ' >
 
             {showPopUp ? <Popup /> : <></>}
 
 
 
 
-            <div className={`  sm:flex flex-row  justify-center mt-36 items-center  mb-24 bg-gray-900 w-max m-2 border  rounded-lg shadow-md sm:w-4/6 `} >
+            <div className={`  sm:flex flex-row  justify-center mt-36 items-center  mb-24 bg-mainBlack w-max m-2 border  rounded-lg shadow-md sm:w-4/6 `} >
                 {/* Thumbnail */}
 
                 <div className=' sm:w-1/6 w-full flex items-start flex-col m-4' >
