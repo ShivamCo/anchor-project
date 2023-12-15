@@ -50,7 +50,7 @@ const ResultPage = () => {
 
 
     return (
-        <div className=' flex  flex-col bg-mainBlack h-full justify-center items-center ' >
+        <div className=' flex  flex-col bg-slate-950 h-full justify-center items-center ' >
 
             {showPopUp ? <Popup /> : <></>}
 
