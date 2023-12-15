@@ -83,7 +83,7 @@ const Popup = () => {
                                 <input type="email" onChange={handelChange} name="email" id="email" className="bg-gray-50 border m-2 bg-transparent border-gray-600 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required />
                             </div>
 
-                            <button onClick={handelSubmit} data-modal-hide="popup-modal" type="button" className="text-white my-2 bg-sky-600 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 dark:focus:ring-sky-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center me-2">
+                            <button onClick={handelSubmit} data-modal-hide="popup-modal" type="button" className="text-gray-800 my-2  text-center bg-white focus:ring-4 focus:outline-none focus:ring-sky-300 dark:focus:ring-sky-800 font-medium rounded-full text-sm inline-flex items-center px-5 py-2.5 me-2">
                                 Submit
                             </button>
 
